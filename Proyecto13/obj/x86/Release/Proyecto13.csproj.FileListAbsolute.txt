@@ -1,0 +1,3 @@
+/home/lucas/Projects/Paradigmas/Proyecto13/bin/Release/Proyecto13.exe
+/home/lucas/Projects/Paradigmas/Proyecto13/obj/x86/Release/Proyecto13.csproj.CoreCompileInputs.cache
+/home/lucas/Projects/Paradigmas/Proyecto13/obj/x86/Release/Proyecto13.exe
