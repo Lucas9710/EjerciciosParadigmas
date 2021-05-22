@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Ejercicio13
+namespace Proyecto13
 {
     class MainClass
     {
@@ -30,7 +30,12 @@ namespace Ejercicio13
                 Console.WriteLine("el divisor no puede contener 0");
             }
 
-        
+
+
+
+
+
+
 
         }
     }

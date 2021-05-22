@@ -1,17 +1,14 @@
-﻿<Properties StartupConfiguration="{EF6F2785-B01B-43AA-A087-018F6FE055EA}|Default">
+﻿<Properties StartupConfiguration="{4FAED45B-24F3-4F8D-AA89-DFE95AD7CAD2}|Default">
   <MonoDevelop.Ide.ItemProperties.Ejercicio8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio12 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Ejercicio15 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ejercicio2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.ejercicio14 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ejercicio14 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio4 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio15/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ejercicio14/Program.cs">
     <Files>
       <File FileName="Ejercicio6/Program.cs" Line="20" Column="13" />
-      <File FileName="Proyecto13/Program.cs" Line="38" Column="1" />
-      <File FileName="ejercicio14/Program.cs" Line="31" Column="27" />
-      <File FileName="Ejercicio9/Program.cs" Line="12" Column="47" />
-      <File FileName="Ejercicio15/Program.cs" Line="62" Column="46" />
+      <File FileName="Proyecto13/Program.cs" Line="33" Column="9" />
+      <File FileName="ejercicio14/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,11 +18,7 @@
             <Node name="Ejercicio10" expanded="True" />
             <Node name="Ejercicio11" expanded="True" />
             <Node name="Ejercicio12" expanded="True" />
-            <Node name="Ejercicio13" expanded="True" />
-            <Node name="ejercicio14" expanded="True" />
-            <Node name="Ejercicio15" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="ejercicio14" expanded="True" selected="True" />
             <Node name="ejercicio2" expanded="True" />
             <Node name="Ejercicio3" expanded="True" />
             <Node name="Ejercicio4" expanded="True" />
@@ -34,17 +27,9 @@
             <Node name="Ejercicio7" expanded="True" />
             <Node name="Ejercicio8" expanded="True" />
             <Node name="Ejercicio9" expanded="True" />
+            <Node name="EjercicioPag55" expanded="True" />
+            <Node name="Proyecto13" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>anio</Value>
-          <Value>anio2</Value>
-          <Value>anio</Value>
-          <Value>anio</Value>
-          <Value>anio</Value>
-          <Value>anio</Value>
         </State>
       </Pad>
     </Pads>
@@ -61,17 +46,7 @@
   <MonoDevelop.Ide.ItemProperties.Ejercicio7 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio5 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="32" column="13" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="35" column="1" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="37" column="1" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="41" column="1" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="45" column="1" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="50" column="1" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="54" column="1" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="60" column="1" />
-      <Breakpoint file="/home/lucas/Projects/Paradigmas/Ejercicio15/Program.cs" relfile="Ejercicio15/Program.cs" line="64" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.EjercicioPag55 PreferredExecutionTarget="MonoDevelop.Default" />
