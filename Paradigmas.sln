@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio13", "Proyecto13\E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio14", "ejercicio14\ejercicio14.csproj", "{40F58A44-D9F3-49E3-9CC0-B58D51F80F18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio15", "Ejercicio15\Ejercicio15.csproj", "{7C0A5115-5C2C-4686-B6CE-D57AD5792303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -97,5 +99,9 @@ Global
 		{40F58A44-D9F3-49E3-9CC0-B58D51F80F18}.Debug|x86.Build.0 = Debug|x86
 		{40F58A44-D9F3-49E3-9CC0-B58D51F80F18}.Release|x86.ActiveCfg = Release|x86
 		{40F58A44-D9F3-49E3-9CC0-B58D51F80F18}.Release|x86.Build.0 = Release|x86
+		{7C0A5115-5C2C-4686-B6CE-D57AD5792303}.Debug|x86.ActiveCfg = Debug|x86
+		{7C0A5115-5C2C-4686-B6CE-D57AD5792303}.Debug|x86.Build.0 = Debug|x86
+		{7C0A5115-5C2C-4686-B6CE-D57AD5792303}.Release|x86.ActiveCfg = Release|x86
+		{7C0A5115-5C2C-4686-B6CE-D57AD5792303}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
