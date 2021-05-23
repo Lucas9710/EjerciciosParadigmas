@@ -6,7 +6,9 @@ b. Nivel 2 → 75<=Porcentaje<89
 c. Nivel 3 → 50<=Porcentaje<70
 d. Nivel 4 → Porcentaje<50
 ¿Qué error tiene este algoritmo.?
+El error que tiene el algoritmo es que no hay ningun nivel asignado para los porcentajes del 70% al 74%
 */
+
 using System;
 
 namespace Ejercicio21
@@ -43,3 +45,4 @@ namespace Ejercicio21
         }
     }
 }
+
