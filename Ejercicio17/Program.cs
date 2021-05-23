@@ -20,22 +20,22 @@ namespace Ejercicio17
             Console.WriteLine("ingrese el tercer numero");
             num3 = int.Parse(Console.ReadLine());
 
-            if(num1 > num2 && num1 > num3)
+            if(num1 < num2 && num1 < num3)
             {
-                Console.WriteLine("el numero " + num1 + " es mayor");
+                Console.WriteLine("el numero " + num1 + " es el menor");
 
             }
 
 
-            if(num2 > num1 && num2 > num3)
+            if(num2 < num1 && num2 < num3)
             {
-                Console.WriteLine("el numero " + num2 + " es mayor");
+                Console.WriteLine("el numero " + num2 + " es el menor");
             }
 
 
-            if (num3 > num1 && num3 > num2)
+            if (num3 < num1 && num3 < num2)
             {
-                Console.WriteLine("el numero " + num3 + " es mayor");
+                Console.WriteLine("el numero " + num3 + " es el menor");
             }
         }
     }
