@@ -10,11 +10,13 @@
   <MonoDevelop.Ide.ItemProperties.Ejercicio22 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio24 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio25 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Ejercicio27 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio18 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio26/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio27/Program.cs">
     <Files>
       <File FileName="Ejercicio26/Program.cs" Line="24" Column="17" />
+      <File FileName="Ejercicio27/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -38,9 +40,8 @@
             <Node name="Ejercicio23" expanded="True" />
             <Node name="Ejercicio24" expanded="True" />
             <Node name="Ejercicio25" expanded="True" />
-            <Node name="Ejercicio26" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Ejercicio26" expanded="True" />
+            <Node name="Ejercicio27" expanded="True" selected="True" />
             <Node name="Ejercicio3" expanded="True" />
             <Node name="Ejercicio4" expanded="True" />
             <Node name="Ejercicio5" expanded="True" />
