@@ -43,10 +43,18 @@ namespace Ejercicio23
             {
                 Console.WriteLine("el dia esta valido");
             }
+            else
+            {
+                Console.WriteLine("el dia no esta valido");
+            }
 
-            if(validoMes == true)
+            if (validoMes == true)
             {
                 Console.WriteLine("el mes esta valido");
+            }
+            else
+            {
+                Console.WriteLine("el mes no esta valido");
             }
         }
     }
