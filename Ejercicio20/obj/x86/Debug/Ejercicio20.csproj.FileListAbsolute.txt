@@ -1,0 +1,5 @@
+/home/lucas/Projects/Paradigmas/Ejercicio20/bin/Debug/Ejercicio20.exe
+/home/lucas/Projects/Paradigmas/Ejercicio20/bin/Debug/Ejercicio20.pdb
+/home/lucas/Projects/Paradigmas/Ejercicio20/obj/x86/Debug/Ejercicio20.csproj.CoreCompileInputs.cache
+/home/lucas/Projects/Paradigmas/Ejercicio20/obj/x86/Debug/Ejercicio20.exe
+/home/lucas/Projects/Paradigmas/Ejercicio20/obj/x86/Debug/Ejercicio20.pdb
