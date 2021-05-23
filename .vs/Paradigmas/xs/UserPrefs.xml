@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{0828ECE9-6E93-4796-B64E-12D1F9CEA391}|Default">
+﻿<Properties StartupConfiguration="{1710A340-DB16-4439-A052-1E63EC197B58}|Default">
   <MonoDevelop.Ide.ItemProperties.Ejercicio21 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio12 PreferredExecutionTarget="MonoDevelop.Default" />
@@ -6,19 +6,15 @@
   <MonoDevelop.Ide.ItemProperties.ejercicio2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ejercicio14 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio20 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Ejercicio26 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio22 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio24 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio25 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio18 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio25/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio26/Program.cs">
     <Files>
-      <File FileName="Ejercicio21/Program.cs" Line="12" Column="1" />
-      <File FileName="Ejercicio22/Program.cs" Line="18" Column="42" />
-      <File FileName="Ejercicio9/Program.cs" Line="19" Column="11" />
-      <File FileName="Ejercicio23/Program.cs" Line="24" Column="36" />
-      <File FileName="Ejercicio24/Program.cs" Line="22" Column="31" />
-      <File FileName="Ejercicio25/Program.cs" Line="1" Column="1" />
+      <File FileName="Ejercicio26/Program.cs" Line="24" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -41,7 +37,10 @@
             <Node name="Ejercicio22" expanded="True" />
             <Node name="Ejercicio23" expanded="True" />
             <Node name="Ejercicio24" expanded="True" />
-            <Node name="Ejercicio25" expanded="True" selected="True" />
+            <Node name="Ejercicio25" expanded="True" />
+            <Node name="Ejercicio26" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
             <Node name="Ejercicio3" expanded="True" />
             <Node name="Ejercicio4" expanded="True" />
             <Node name="Ejercicio5" expanded="True" />

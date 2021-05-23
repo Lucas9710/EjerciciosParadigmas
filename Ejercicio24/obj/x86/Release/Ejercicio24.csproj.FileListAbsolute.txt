@@ -1,0 +1,3 @@
+/home/lucas/Projects/Paradigmas/Ejercicio24/bin/Release/Ejercicio24.exe
+/home/lucas/Projects/Paradigmas/Ejercicio24/obj/x86/Release/Ejercicio24.csproj.CoreCompileInputs.cache
+/home/lucas/Projects/Paradigmas/Ejercicio24/obj/x86/Release/Ejercicio24.exe
