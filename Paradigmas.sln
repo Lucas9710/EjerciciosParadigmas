@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio19", "Ejercicio19\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio20", "Ejercicio20\Ejercicio20.csproj", "{675B2043-8834-4DEB-89C4-334856888CF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio21", "Ejercicio21\Ejercicio21.csproj", "{4C7EF0AC-EFA7-4D16-B6B5-8749C7F2F41E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -133,5 +135,9 @@ Global
 		{675B2043-8834-4DEB-89C4-334856888CF2}.Debug|x86.Build.0 = Debug|x86
 		{675B2043-8834-4DEB-89C4-334856888CF2}.Release|x86.ActiveCfg = Release|x86
 		{675B2043-8834-4DEB-89C4-334856888CF2}.Release|x86.Build.0 = Release|x86
+		{4C7EF0AC-EFA7-4D16-B6B5-8749C7F2F41E}.Debug|x86.ActiveCfg = Debug|x86
+		{4C7EF0AC-EFA7-4D16-B6B5-8749C7F2F41E}.Debug|x86.Build.0 = Debug|x86
+		{4C7EF0AC-EFA7-4D16-B6B5-8749C7F2F41E}.Release|x86.ActiveCfg = Release|x86
+		{4C7EF0AC-EFA7-4D16-B6B5-8749C7F2F41E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
