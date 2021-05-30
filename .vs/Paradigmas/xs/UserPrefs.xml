@@ -14,14 +14,10 @@
   <MonoDevelop.Ide.ItemProperties.Ejercicio27 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio18 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio26/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio32/Program.cs">
     <Files>
-      <File FileName="Ejercicio26/Program.cs" Line="24" Column="1" />
-      <File FileName="Ejercicio27/Program.cs" Line="31" Column="10" />
-      <File FileName="Ejercicio28/Program.cs" Line="18" Column="1" />
-      <File FileName="Ejercicio29/Program.cs" Line="28" Column="12" />
+      <File FileName="Ejercicio32/Program.cs" Line="3" Column="1" />
       <File FileName="Ejercicio31/Program.cs" Line="27" Column="1" />
-      <File FileName="Ejercicio32/Program.cs" Line="18" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -45,16 +41,16 @@
             <Node name="Ejercicio23" expanded="True" />
             <Node name="Ejercicio24" expanded="True" />
             <Node name="Ejercicio25" expanded="True" />
-            <Node name="Ejercicio26" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Ejercicio26" expanded="True" />
             <Node name="Ejercicio27" expanded="True" />
             <Node name="Ejercicio28" expanded="True" />
             <Node name="Ejercicio29" expanded="True" />
             <Node name="Ejercicio3" expanded="True" />
             <Node name="Ejercicio30" expanded="True" />
             <Node name="Ejercicio31" expanded="True" />
-            <Node name="Ejercicio32" expanded="True" />
+            <Node name="Ejercicio32" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
             <Node name="Ejercicio4" expanded="True" />
             <Node name="Ejercicio5" expanded="True" />
             <Node name="Ejercicio6" expanded="True" />
