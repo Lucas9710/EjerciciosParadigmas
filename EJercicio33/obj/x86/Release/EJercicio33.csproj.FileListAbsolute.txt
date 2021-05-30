@@ -1,0 +1,3 @@
+/home/lucas/Projects/Paradigmas/EJercicio33/bin/Release/EJercicio33.exe
+/home/lucas/Projects/Paradigmas/EJercicio33/obj/x86/Release/EJercicio33.csproj.CoreCompileInputs.cache
+/home/lucas/Projects/Paradigmas/EJercicio33/obj/x86/Release/EJercicio33.exe

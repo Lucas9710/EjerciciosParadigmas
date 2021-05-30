@@ -36,7 +36,7 @@ namespace Ejercicio32
                 c += 1;
             }
 
-            Console.WriteLine("el resultado es " + c + "," + numA);
+            Console.WriteLine("el resultado es " + c + " y el resto es " + numA);
 
 
         }
