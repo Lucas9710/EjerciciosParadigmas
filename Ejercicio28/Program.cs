@@ -7,7 +7,7 @@ namespace Ejercicio28
     {
         public static void Main(string[] args)
         {
-             double numero = 0;
+            double numero = 0;
             const double dos = 2;
 
             for(double i = 0; i <= 10; i++)
@@ -15,7 +15,6 @@ namespace Ejercicio28
                 numero = Math.Pow(dos, i);
                 Console.WriteLine("2 elevado a la " + i +" es "+ numero);
             }
-
 
         }
     }
