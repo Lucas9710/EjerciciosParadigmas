@@ -16,10 +16,10 @@ namespace Ejercicio35
         {
             int version = 0;
             int contador = 0;
-            int alumTotv1 = 0;
+            int alumTotv1 = 1;
             int alumTotv3 = 0;
             string alumno = "";
-            double nota1 = 1;
+            double nota1 = 0;
             double nota2 = 0;
             double nota3 = 0;
             double nota4 = 0;

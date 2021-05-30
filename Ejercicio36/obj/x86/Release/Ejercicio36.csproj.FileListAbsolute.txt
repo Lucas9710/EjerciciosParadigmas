@@ -1,0 +1,3 @@
+/home/lucas/Projects/Paradigmas/Ejercicio36/bin/Release/Ejercicio36.exe
+/home/lucas/Projects/Paradigmas/Ejercicio36/obj/x86/Release/Ejercicio36.csproj.CoreCompileInputs.cache
+/home/lucas/Projects/Paradigmas/Ejercicio36/obj/x86/Release/Ejercicio36.exe
