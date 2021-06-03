@@ -28,27 +28,27 @@ namespace Ejercicio38
             int cantPorProducto = 0;
             bool huboVenta = false;
 
-            Console.WriteLine("ingrese un codigo de sucursal o 999 para finalizar");
+            Console.WriteLine("ingrese un codigo de sucursal o 0 para finalizar");
             codigoDeSucursal = Console.ReadLine();
 
             Console.WriteLine("ingrese un codigo de producto");
             codigoProducto = Console.ReadLine();
 
-            while (codigoDeSucursal != "999")
+            while (codigoDeSucursal != "0")
             {
                 codigoProductoAnterior = codigoProducto;
 
-                while(codigoDeSucursal!= "999" && codigoProducto == codigoProductoAnterior)
+                while(codigoDeSucursal!= "0" && codigoProducto == codigoProductoAnterior)
                 {
                     Console.WriteLine("ingrese la cantidad vendida");
                     cantidadVendida = int.Parse(Console.ReadLine());
 
                     cantPorProducto += cantidadVendida;
 
-                    Console.WriteLine("ingrese un codigo de sucursal o 999 para finalizar");
+                    Console.WriteLine("ingrese un codigo de sucursal o 0 para finalizar");
                     codigoDeSucursal = Console.ReadLine();
 
-                    if( codigoDeSucursal != "999")
+                    if( codigoDeSucursal != "0")
                     {
 
                         Console.WriteLine("ingrese un codigo de producto");
@@ -76,7 +76,7 @@ namespace Ejercicio38
                 }
 
                 cantPorProducto = 0;
-                codigoProductoAnterior = codigoProducto;
+               
             }
 
             if (huboVenta)
