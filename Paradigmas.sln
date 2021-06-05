@@ -81,6 +81,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio38", "Ejercicio38\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio39", "Ejercicio39\Ejercicio39.csproj", "{9FFD22D7-06BD-46A9-BDE8-63434FFA803F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio40", "Ejercicio40\Ejercicio40.csproj", "{73C8D94C-8828-4FE1-AE74-E5645B684DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio41", "Ejercicio41\Ejercicio41.csproj", "{A8CE812A-2DEA-4A37-BADC-809C806F30FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio42", "Ejercicio42\Ejercicio42.csproj", "{298FA949-C45E-4966-9DE3-3CA8C6CE80BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -247,5 +253,17 @@ Global
 		{9FFD22D7-06BD-46A9-BDE8-63434FFA803F}.Debug|x86.Build.0 = Debug|x86
 		{9FFD22D7-06BD-46A9-BDE8-63434FFA803F}.Release|x86.ActiveCfg = Release|x86
 		{9FFD22D7-06BD-46A9-BDE8-63434FFA803F}.Release|x86.Build.0 = Release|x86
+		{73C8D94C-8828-4FE1-AE74-E5645B684DA0}.Debug|x86.ActiveCfg = Debug|x86
+		{73C8D94C-8828-4FE1-AE74-E5645B684DA0}.Debug|x86.Build.0 = Debug|x86
+		{73C8D94C-8828-4FE1-AE74-E5645B684DA0}.Release|x86.ActiveCfg = Release|x86
+		{73C8D94C-8828-4FE1-AE74-E5645B684DA0}.Release|x86.Build.0 = Release|x86
+		{A8CE812A-2DEA-4A37-BADC-809C806F30FA}.Debug|x86.ActiveCfg = Debug|x86
+		{A8CE812A-2DEA-4A37-BADC-809C806F30FA}.Debug|x86.Build.0 = Debug|x86
+		{A8CE812A-2DEA-4A37-BADC-809C806F30FA}.Release|x86.ActiveCfg = Release|x86
+		{A8CE812A-2DEA-4A37-BADC-809C806F30FA}.Release|x86.Build.0 = Release|x86
+		{298FA949-C45E-4966-9DE3-3CA8C6CE80BF}.Debug|x86.ActiveCfg = Debug|x86
+		{298FA949-C45E-4966-9DE3-3CA8C6CE80BF}.Debug|x86.Build.0 = Debug|x86
+		{298FA949-C45E-4966-9DE3-3CA8C6CE80BF}.Release|x86.ActiveCfg = Release|x86
+		{298FA949-C45E-4966-9DE3-3CA8C6CE80BF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

@@ -1,5 +1,5 @@
-﻿/*30. Se leen 300 datos que representan el peso y la edad de los niños atendidos en un hospital, 
- se pide informar el peso promedio según el siguiente rango de edades:
+﻿/*Se leen 300 datos que representan el peso y la edad de los niños atendidos en un hospital, 
+ * se pide informar el peso promedio según el siguiente rango de edades:
 • De 0 a 1 año inclusive / De 1 año a 3 inclusive / De 3 años a 5 inclusive
 Las edades de los niños atendidos en el hospital van desde los 0 a los 14 años.
 Informar la cantidad total de niños que no fueron contabilizados en el rango de edades.
@@ -8,12 +8,13 @@ Informar cual fue el peso máximo de todos los niños
 */
 using System;
 
-namespace Ejercicio30
+namespace Ejercicio41
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
+
             int contadorDeDatos = 0;
             int menu = 0;
             int contadorDe0a14Años = 0;
@@ -29,7 +30,7 @@ namespace Ejercicio30
                 Console.WriteLine("seleccione la edad del menor \n 1 Para de 0 a 1 \n 2 Para 1 a 3 inclusive \n 3 a 5 años inclusive \n 4 Para los de 6 a 14 años ");
                 menu = int.Parse(Console.ReadLine());
 
-                while (menu > 5 || menu < 1)
+                while(menu > 4 || menu < 1)
                 {
                     Console.WriteLine("ERROR. seleccione la edad del menor \n 1 Para de 0 a 1 \n 2 Para 1 a 3 inclusive \n 3 a 5 años inclusive \n 4 Para los de 6 a 14 años ");
                     menu = int.Parse(Console.ReadLine());
@@ -131,20 +132,21 @@ namespace Ejercicio30
                         break;
 
                     default:
-
+                        
                         break;
 
 
                 }
-               
-               promedio = acumuladorDePeso / contadorDeDatos;
 
-            } while (contadorDeDatos < 300 && menu != 0);
+                promedio = acumuladorDePeso / contadorDeDatos;
+
+            } while (contadorDeDatos < 5 && menu != 0);
 
             Console.WriteLine("el peso maximo de todos los niños es " + pesoMaximo + "kg");
             Console.WriteLine("el peso minimo de todos los niños es " + pesoMinimo + "kg");
             Console.WriteLine("el promedio de peso de todos los niños es " + promedio + "kg");
             Console.WriteLine("la cantidad total de niños que no fueron contabilizados en el rango de edades " + contadorDe0a14Años);
+
 
         }
     }

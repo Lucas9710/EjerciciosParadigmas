@@ -26,7 +26,7 @@ namespace Ejercicio38
             int menorVentaxProducto = 0;
             int mayorVentaxProducto = 0;
             int cantPorProducto = 0;
-            bool huboVenta = false;
+           
 
             Console.WriteLine("ingrese un codigo de sucursal o 0 para finalizar");
             codigoDeSucursal = Console.ReadLine();
@@ -58,7 +58,7 @@ namespace Ejercicio38
                     }
 
 
-                    huboVenta = true;
+                   
                 }
                
 
@@ -79,12 +79,9 @@ namespace Ejercicio38
                
             }
 
-            if (huboVenta)
-            {
                 Console.WriteLine("el producto màs vendido es " + codProductoMayorVenta + " vendio " + mayorVentaxProducto);
                 Console.WriteLine(" el producto menos vendido es " + codigoDeProductoMenor + " vendio " + menorVentaxProducto);
-            }
-
+           
         }
     }
 }
