@@ -1,13 +1,11 @@
-﻿/*42. Se tienen los montos de ventas totales de los n primeros meses (definidos por el usuario), 
- correspondiente a un mismo año de un comercio. Se quiere calcular e informar la venta promedio de
- esos meses, así como el nombre del mes y el monto de la venta de aquellos meses en que la venta 
- superó a la venta promedio calculada. Las ventas se encuentras ordenadas por mes ascendente 
- (enero al mes indicado por el usuario). El usuario podría no requerir ningún informe indicando 0 
-  como número de meses a procesar.
+﻿/*Idem al ejercicio 42 pero:
+1) Informar el promedio de ventas de los meses que superaron la venta promedio total. 
+ Por mes descendente, (de aquellos meses que superaron la venta promedio)
+2) Informar el promedio de la venta de aquellos meses cuya venta superó al promedio)
 */
 using System;
 
-namespace Ejercicio42
+namespace Ejercicio43
 {
     class MainClass
     {
@@ -16,7 +14,10 @@ namespace Ejercicio42
             int meses = 0;
             int sumaDeVentas = 0;
             int promedio = 0;
-           
+            int sumaDeMesesQueSuperaronElPromedio = 0;
+            int contador = 0;
+            int PromedioDeMesesQueSuperaronElPromedioDeVentas = 0;
+
 
             Console.WriteLine("ingrese los meses");
             meses = int.Parse(Console.ReadLine());
@@ -25,33 +26,36 @@ namespace Ejercicio42
             string[] nombreDeLosMeses = new string[12] { "Enero", "Febrero", "Marzo", "Abril"
             , "Mayo", "Junio", "Julio", "Agosto", "septiembre", "Octubre", "Noviembre", "Diciembre" };
 
-            for(int i = 0; i < ventas.Length; i++)
+            for (int i = 0; i < ventas.Length; i++)
             {
                 Console.WriteLine("ingrese el numero de ventas del mes");
                 ventas[i] = int.Parse(Console.ReadLine());
             }
 
-            for(int i = 0; i < ventas.Length; i++)
+            for (int i = 0; i < ventas.Length; i++)
             {
-                sumaDeVentas += ventas[i]; 
+                sumaDeVentas += ventas[i];
             }
 
             promedio = sumaDeVentas / meses;
 
             Console.WriteLine("el promedio de las ventas es " + promedio);
 
-            for (int i = 0; i < ventas.Length; i++)
+            for (int i = ventas.Length - 1; i >= 0 ; i--)
             {
-                if(promedio < ventas[i] )
+                if (promedio < ventas[i])
                 {
                     Console.WriteLine("el mes " + nombreDeLosMeses[i] + " supero el promedio con " + ventas[i] + " ventas");
-                   
+
+                    sumaDeMesesQueSuperaronElPromedio += ventas[i];
+                    contador++;
+
                 }
             }
 
+            PromedioDeMesesQueSuperaronElPromedioDeVentas = sumaDeMesesQueSuperaronElPromedio / contador;
+            Console.WriteLine("el promedio de los meses que superaron el promedio de ventas es " + PromedioDeMesesQueSuperaronElPromedioDeVentas);
 
-
-         
         }
     }
 }
