@@ -14,8 +14,8 @@ namespace Ejercicio42
         public static void Main(string[] args)
         {
             int meses = 0;
-            int sumaDeVentas = 0;
-            int promedio = 0;
+            double sumaDeVentas = 0;
+            double promedio = 0;
            
 
             Console.WriteLine("ingrese los meses");

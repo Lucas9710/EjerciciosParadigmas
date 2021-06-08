@@ -1,5 +1,6 @@
-﻿<Properties StartupConfiguration="{C7C038BF-C821-4B7D-ABDD-CB9F247DCEF7}|Default">
+﻿<Properties StartupConfiguration="{2B1AF89F-CB74-4BE0-9533-79E6FE97B09D}|Default">
   <MonoDevelop.Ide.ItemProperties.Ejercicio21 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ejercicio46 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio12 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio15 PreferredExecutionTarget="MonoDevelop.Default" />
@@ -15,15 +16,18 @@
   <MonoDevelop.Ide.ItemProperties.Ejercicio24 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio25 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio27 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Ejercicio1Pag56 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio18 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio44/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio1Pag56/Program.cs">
     <Files>
       <File FileName="Ejercicio40/Program.cs" Line="28" Column="13" />
       <File FileName="Ejercicio41/Program.cs" Line="32" Column="1" />
-      <File FileName="Ejercicio42/Program.cs" Line="18" Column="19" />
-      <File FileName="Ejercicio43/Program.cs" Line="19" Column="19" />
-      <File FileName="Ejercicio44/Program.cs" Line="1" Column="1" />
+      <File FileName="Ejercicio42/Program.cs" Line="27" Column="1" />
+      <File FileName="Ejercicio44/Program.cs" Line="5" Column="1" />
+      <File FileName="Ejercicio45/Program.cs" Line="26" Column="13" />
+      <File FileName="ejercicio46/Program.cs" Line="1" Column="1" />
+      <File FileName="Ejercicio1Pag56/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -40,6 +44,9 @@
             <Node name="Ejercicio17" expanded="True" />
             <Node name="Ejercicio18" expanded="True" />
             <Node name="Ejercicio19" expanded="True" />
+            <Node name="Ejercicio1Pag56" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
             <Node name="ejercicio2" expanded="True" />
             <Node name="Ejercicio20" expanded="True" />
             <Node name="Ejercicio21" expanded="True" />
@@ -67,7 +74,9 @@
             <Node name="Ejercicio41" expanded="True" />
             <Node name="Ejercicio42" expanded="True" />
             <Node name="Ejercicio43" expanded="True" />
-            <Node name="Ejercicio44" expanded="True" selected="True" />
+            <Node name="Ejercicio44" expanded="True" />
+            <Node name="Ejercicio45" expanded="True" />
+            <Node name="ejercicio46" expanded="True" />
             <Node name="Ejercicio5" expanded="True" />
             <Node name="Ejercicio6" expanded="True" />
             <Node name="Ejercicio7" expanded="True" />
@@ -91,11 +100,12 @@
   <MonoDevelop.Ide.ItemProperties.Ejercicio28 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio37 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio10 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Ejercicio45 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio16 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio17 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Ejercicio44 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Ejercicio44 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio19 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio9 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio23 PreferredExecutionTarget="MonoDevelop.Default" />
