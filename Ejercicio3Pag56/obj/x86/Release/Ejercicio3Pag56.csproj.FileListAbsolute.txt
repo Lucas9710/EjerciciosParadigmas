@@ -1,0 +1,4 @@
+/home/lucas/Projects/Paradigmas/Ejercicio3Pag56/obj/x86/Release/Ejercicio3Pag56.csprojAssemblyReference.cache
+/home/lucas/Projects/Paradigmas/Ejercicio3Pag56/obj/x86/Release/Ejercicio3Pag56.csproj.CoreCompileInputs.cache
+/home/lucas/Projects/Paradigmas/Ejercicio3Pag56/bin/Release/Ejercicio3Pag56.exe
+/home/lucas/Projects/Paradigmas/Ejercicio3Pag56/obj/x86/Release/Ejercicio3Pag56.exe

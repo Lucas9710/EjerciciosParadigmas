@@ -1,4 +1,16 @@
-﻿using System;
+﻿/*Se tiene un listado de las ventas de los 4 productos de los 7 días de la semana. Se pide crear un programa que
+almacene la venta individual de cada uno de estos. No hay certeza de la cantidad de ventas por dia ni por
+producto. Se sabe que el listado con los datos no se encuentra de forma ordenada.
+Se pide utilizar un arreglo que describa el nombre de los días
+Se pide utilizar un arreglo que describa el nombre de los productos
+Se pide almacenar las ventas totales por dia por producto en una matriz
+Se pide almacenar las ventas por producto utilizando una matriz
+Se pide poder listar las ventas totales de cada producto
+Se pide poder listar las ventas totales de cada día de la semana
+El enunciado NO DETALLA pero se da por ENTENDIDO que se debe:
+Crear un menú que permita cargar las ventas y elegir los listados
+Utilizar métodos en todo lo que pueda ser realizado en sub programas*/
+using System;
 
 namespace Ejercicio1Pag56
 {

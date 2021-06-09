@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{2B1AF89F-CB74-4BE0-9533-79E6FE97B09D}|Default">
+﻿<Properties StartupConfiguration="{7FB89AB2-152A-432A-9563-EF7FBFFD6745}|Default">
   <MonoDevelop.Ide.ItemProperties.Ejercicio21 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ejercicio46 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio8 PreferredExecutionTarget="MonoDevelop.Default" />
@@ -12,6 +12,7 @@
   <MonoDevelop.Ide.ItemProperties.Ejercicio40 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio30 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio22 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Ejercicio2Pag56 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio35 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio24 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio25 FirstBuild="True" />
@@ -19,15 +20,12 @@
   <MonoDevelop.Ide.ItemProperties.Ejercicio1Pag56 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Ejercicio18 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio1Pag56/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.Ejercicio3Pag56 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio3Pag56/Program.cs">
     <Files>
-      <File FileName="Ejercicio40/Program.cs" Line="28" Column="13" />
-      <File FileName="Ejercicio41/Program.cs" Line="32" Column="1" />
-      <File FileName="Ejercicio42/Program.cs" Line="27" Column="1" />
-      <File FileName="Ejercicio44/Program.cs" Line="5" Column="1" />
-      <File FileName="Ejercicio45/Program.cs" Line="26" Column="13" />
-      <File FileName="ejercicio46/Program.cs" Line="1" Column="1" />
-      <File FileName="Ejercicio1Pag56/Program.cs" Line="1" Column="1" />
+      <File FileName="Ejercicio1Pag56/Program.cs" Line="12" Column="69" />
+      <File FileName="Ejercicio2Pag56/Program.cs" Line="113" Column="164" />
+      <File FileName="Ejercicio3Pag56/Program.cs" Line="11" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -44,9 +42,7 @@
             <Node name="Ejercicio17" expanded="True" />
             <Node name="Ejercicio18" expanded="True" />
             <Node name="Ejercicio19" expanded="True" />
-            <Node name="Ejercicio1Pag56" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Ejercicio1Pag56" expanded="True" />
             <Node name="ejercicio2" expanded="True" />
             <Node name="Ejercicio20" expanded="True" />
             <Node name="Ejercicio21" expanded="True" />
@@ -58,6 +54,7 @@
             <Node name="Ejercicio27" expanded="True" />
             <Node name="Ejercicio28" expanded="True" />
             <Node name="Ejercicio29" expanded="True" />
+            <Node name="Ejercicio2Pag56" expanded="True" />
             <Node name="Ejercicio3" expanded="True" />
             <Node name="Ejercicio30" expanded="True" />
             <Node name="Ejercicio31" expanded="True" />
@@ -69,6 +66,9 @@
             <Node name="Ejercicio37" expanded="True" />
             <Node name="Ejercicio38" expanded="True" />
             <Node name="Ejercicio39" expanded="True" />
+            <Node name="Ejercicio3Pag56" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
             <Node name="Ejercicio4" expanded="True" />
             <Node name="Ejercicio40" expanded="True" />
             <Node name="Ejercicio41" expanded="True" />
@@ -83,6 +83,11 @@
             <Node name="Ejercicio8" expanded="True" />
             <Node name="Ejercicio9" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>i</Value>
         </State>
       </Pad>
     </Pads>
