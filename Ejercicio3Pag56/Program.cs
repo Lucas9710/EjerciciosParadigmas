@@ -13,7 +13,7 @@ namespace Ejercicio3Pag56
             int contador = 0;
             int contador2 = 0;
             int cantidadDeVentasDelProductoConMayorVentas = 0;
-            int productoQueMasDIneroVendio = 0;
+            int importeDelProductoQueMasDIneroVendio = 0;
             int nombreDeProductoConMayorVenta = 0;
             int nombreDelProductoQueMasDineroVendio = 0;
             string continuar = "";
@@ -128,16 +128,16 @@ namespace Ejercicio3Pag56
 
             for (int i = 0; i < sumaDeImportes.Length; i++)
             {
-                if (productoQueMasDIneroVendio < sumaDeImportes[i])
+                if (importeDelProductoQueMasDIneroVendio < sumaDeImportes[i])
                 {
-                    productoQueMasDIneroVendio = sumaDeImportes[i];
+                    importeDelProductoQueMasDIneroVendio = sumaDeImportes[i];
                     nombreDelProductoQueMasDineroVendio = i;
 
                 }
             }
 
             Console.WriteLine($"el producto que mas vendio es {productos[nombreDeProductoConMayorVenta]} con {cantidadDeVentasDelProductoConMayorVentas} ventas");
-            Console.WriteLine($"el producto que mas dinero vendio es {productos[nombreDelProductoQueMasDineroVendio]} su importe es {productoQueMasDIneroVendio}");
+            Console.WriteLine($"el producto que mas dinero vendio es {productos[nombreDelProductoQueMasDineroVendio]} su importe es {importeDelProductoQueMasDIneroVendio}");
         }
 
       static void RecorrerLasVentas(int[] producto1, int[] producto2, int[] producto3, int[] producto4 )
@@ -166,5 +166,5 @@ namespace Ejercicio3Pag56
         }
     }
 
-    }
+  }
 

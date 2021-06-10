@@ -1,0 +1,3 @@
+/home/lucas/Projects/Paradigmas/Ejercicio49/bin/Release/Ejercicio49.exe
+/home/lucas/Projects/Paradigmas/Ejercicio49/obj/x86/Release/Ejercicio49.csproj.CoreCompileInputs.cache
+/home/lucas/Projects/Paradigmas/Ejercicio49/obj/x86/Release/Ejercicio49.exe

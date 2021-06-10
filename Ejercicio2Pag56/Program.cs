@@ -31,7 +31,7 @@ namespace Ejercicio2Pag56
             do
             {
 
-                Console.WriteLine("¿Que producto desea vender?");
+                Console.WriteLine("¿Que producto desea vender: 1, 2, 3 o 4?");
                 productoAvender = int.Parse(Console.ReadLine());
                 while(productoAvender != 1 && productoAvender != 2 && productoAvender != 3 && productoAvender != 4 && productoAvender != 0000)
                 {
