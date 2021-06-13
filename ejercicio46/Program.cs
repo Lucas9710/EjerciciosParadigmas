@@ -37,52 +37,116 @@ namespace ejercicio46
     {
         public static void Main(string[] args)
         {
-            bool[] cajas = new bool[25];
-            int numeroDeCaja = 0;
-            string continuar = "";
-
-            string[] descripciones = new string[25];
-            int codigoDeProducto = 0;
-            string descripcion = "";
-            string precio = "";
-
-           
+            int[] codigoDeProducto = new int[10];
+            double[] precio = new double[10];
+            int[] cajas = new int[10];
+            bool[] cajasSeleccionadas = new bool[25];
+            int[] cantidadVendida = new int[10];
+            string[] descripciones = new string[10];
+            int caja = 0;
+            int contador = 0;
+            double mayorFacturacion = 0;
+            int menu = 0;
+        
+            string nombreDelProductoConMayorFacturacion = "";
             do
             {
+                Console.WriteLine("ingrese que quiere hacer \n1 para registrar ventas \n2 Informe de mayor facturacion\n0 para terminar");
+                menu = int.Parse(Console.ReadLine());
+                while(menu != 0 && menu != 1 && menu != 2)
+                {
+                    Console.WriteLine("ERROR.ingrese que quiere hacer \n1 para registrar ventas \n2 Informe de mayor facturacion\n0 para terminar");
+                    menu = int.Parse(Console.ReadLine());
+                }
 
-                Console.WriteLine("ingrese el numero de caja");
-                numeroDeCaja = int.Parse(Console.ReadLine());
-                cajas[numeroDeCaja - 1] = true;
+                switch (menu)
+                {
+                    case 1:
+                        Console.WriteLine("ingrese el numero la caja 0 a 25 ");
+                        caja = int.Parse(Console.ReadLine());
+                        cajasSeleccionadas[caja] = true;
 
-               
-                 Console.WriteLine("ingrese el codigo del producto");
-                codigoDeProducto = int.Parse(Console.ReadLine());
+                        while (caja < 0 && caja > 25)
+                        {
+                            Console.WriteLine("ERROR.ingrese el numero la caja 0 a 25");
+                            caja = int.Parse(Console.ReadLine());
+
+                        }
 
 
-                Console.WriteLine("ingrese la descripcion del producto");
-                descripcion = Console.ReadLine();
+                        if (caja != 0000)
+                        {
+                            Console.WriteLine("ingrese el codigo del producto");
+                            codigoDeProducto[contador] = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("ingrese el precio");
-                precio = Console.ReadLine();
+                            InicializarProducto(ref descripciones, ref precio, ref contador);
 
-                InicializarProducto(descripcion, precio, codigoDeProducto);
+                            Console.WriteLine("ingrese la cantidad vendida");
+                            cantidadVendida[contador] = int.Parse(Console.ReadLine());
 
-            } while (continuar == "si");
-           
-            
+                            contador++;
+                        }
+
+
+
+                        if (mayorFacturacion < precio[contador])
+                        {
+                            mayorFacturacion = precio[contador];
+                            nombreDelProductoConMayorFacturacion = descripciones[contador];
+                        }
+                        Console.Clear();
+                        break;
+                    case 2:
+                        Console.WriteLine($"el producto con mayor facturacion es {nombreDelProductoConMayorFacturacion} vendido a {mayorFacturacion} pesos ");
+                        break;
+                 
+                }
+
+
+            } while (menu != 0);
+
+            bool mostrarUnaVezSola = false;
+
+            for (int i = 0; i < codigoDeProducto.Length; i++)
+            {
+              
+                if(mostrarUnaVezSola == false)
+                {
+                    Console.WriteLine("el registro de ventas");
+                    mostrarUnaVezSola = true;
+                }
+               if(codigoDeProducto[i] > 0)
+                {
+                    Console.WriteLine($"Nombre de la caja {cajas[i]} codigo de producto {codigoDeProducto[i]} cantidad vendida {cantidadVendida[i]} descripcion {descripciones[i]} valor unitario {precio[i]} ");
+                }
+              
+            }
+
+            Console.WriteLine(CajasSinVentas(cajasSeleccionadas) + " cajas no realizaron ventas");
         }
 
-        private static (String[], String[]) InicializarProducto(string descripcion, string precio, int codigoDeProducto)
+        private static void InicializarProducto(ref string[] descripciones, ref double[] precio, ref int contador)
         {
-            string[] descripciones = new string[25];
-            string[] precios = new string[25];
+            Console.WriteLine("ingrese el nombre del producto");
+            descripciones[contador] = Console.ReadLine();
 
-            descripciones[codigoDeProducto - 1] = descripcion;
-            precios[codigoDeProducto - 1] = precio;
+            Console.WriteLine("ingrese el precio del producto");
+            precio[contador] = double.Parse(Console.ReadLine());
 
-            return (descripciones, precios);
-        
+        }
 
+        private static int CajasSinVentas(bool[] cajasSeleccionadas)
+        {
+            int contador = 0;
+            for (int i = 0; i < cajasSeleccionadas.Length; i++)
+            {
+              if(cajasSeleccionadas[i] == false)
+                {
+                    contador++;
+                }
+            }
+
+            return contador;
         }
 
     }
