@@ -1,0 +1,75 @@
+socios atendidos por cada centro de atención.
+A modo de ejemplo se muestra un listado de ventas del año pasado
+El sistema solicitado debe contemplar las siguientes funcionalidades (menú) :
+o Informar la cantidad de afiliados atendidos en un centro determinado en un dia determinado. Ambos
+valores serán ingresados por el usuario. Por ejemplo si se selecciona la el centro de atención 2 y se
+selecciona el día miércoles a leyenda debería decir:
+▪ “El centro de atención 2 atendió 110 socios el día miércoles”.
+o Informar la cantidad total de socios atendidos en un día. El díaserá seleccionado por el usuario. Por
+ejemplo si se selecciona el día Sábado deberá mostrar la siguiente leyenda:
+▪ El día sábado se atendieron 509 socios.
+o Informar la cantidad total de socios atendidos en un Centro determinado. Por ejemplo si se selecciona
+el centro de atención 3 deberá mostrar la siguiente leyenda
+▪ El centro de atención 3 atendió 703 socios.
+o Para optimizar la carga los datos registrados de los socios atendidos, la registración se deberá hacer en
+una matriz llamada registroDeSocios. Además el programador deberá crear los arreglos adicionales*/
+using System;
+
+namespace Ejercicio5Pag57
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            int[,] registroDeSocios = new int[7, 5];
+            int menu = 0;
+            string[] diasDeLaSemana = { "domingo", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado" };
+            int centro = 0;
+            int dia = 0;
+            int totalSocios = 0;
+            do
+            {
+                Console.WriteLine("ingrese 1 para cargar los socios\n2Informar la cantidad de afiliados atendidos en un centro determinado en un dia determinado\n3Informar la cantidad total de socios atendidos en un día\n4Informar la cantidad total de socios atendidos en un Centro determinado");
+                menu = int.Parse(Console.ReadLine());
+
+                switch(menu){
+                    case 1:
+                        for (int i = 0; i < registroDeSocios.GetLength(0) -1; i++)
+                        {
+                            for (int j = 0; j < registroDeSocios.GetLength(1) - 1; j++)
+                            {
+                              
+                                Console.WriteLine($"ingrese la cantidad de socios el dia {diasDeLaSemana[i+1]} en el centro {j + 1}");
+                                registroDeSocios[i, j] = int.Parse(Console.ReadLine());
+                                registroDeSocios[i, 5] += registroDeSocios[i, j];
+
+                            }
+
+                        }
+
+                        break;
+
+                    case 2: Console.WriteLine("ingrese el centro");
+                        centro = int.Parse(Console.ReadLine());
+                        Console.WriteLine("ingrese el dia");
+                        dia = int.Parse(Console.ReadLine());
+
+                        Console.WriteLine($"en el dia {dia} en el centro {centro} se atendieron {registroDeSocios[dia, centro]}");
+                        break;
+                    case 3: Console.WriteLine("ingrese el dia");
+                        dia = int.Parse(Console.ReadLine());
+                        Console.WriteLine($"la cantidad de socios regitrados en un dia es {registroDeSocios[dia, 5]}");
+                        break;
+                    case 4: Console.WriteLine("ingrese el centro");
+                        centro = int.Parse(Console.ReadLine());
+                        for (int i = 0; i < registroDeSocios.GetLength(0); i++)
+                        {
+                            totalSocios += registroDeSocios[i, centro - 1];
+                        }
+                        Console.WriteLine($"el total de socios registrados en el centro {centro} es {totalSocios} ");
+                        break;
+                }
+            } while (menu != 0000);
+        }
+    }
+}
