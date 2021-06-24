@@ -1,0 +1,79 @@
+/*Una empresa de ventas de bombitas de agua nos informa la venta bimestral de sus 4 sucursales.
+Se nos pide crear un programa que permita cargar la venta (desde teclado) bimestral de cada sucursal
+y que almacene en la última columna de la matriz (fuera de rango de sucursal en color rojo) el valor
+total de cada bimestre.
+A modo de ejemplo se muestra un listado de ventas del año pasado,
+El sistema solicitado debe contemplar las siguientes funcionalidades (menú) :
+o Informar la venta de una sucursal en un determinado bimestre, tanto la sucursal y el bimestre es 
+seleccionado por el usuario. Por ejemplo si se selecciona la venta de la sucursal 1 bimestre 4 la 
+leyenda debería decir: “La sucursal 1 vendió 200 en el primer bimestre”.
+o Informar la venta total de un bimestre que será seleccionado por el usuario. Por ejemplo si se 
+selecciona el bimestre 2 deberá mostrar la siguiente leyenda
+La venta total del segundo bimestre es 190 pesos.
+o Informar la venta total de una sucursal que será seleccionada por el usuario. Por ejemplo si se 
+selecciona la sucursal 3 deberá mostrar la siguiente leyenda
+La venta total de la sucursal 3 es de 860 pesos.
+o Para optimizar la carga los datos registrados en el listado de las ventas deberá ser registrado 
+en una matriz llamada registroDeVentas y deberá crear los arreglos necesarios para hacer un 
+programa óptimo.*/
+using System;
+
+namespace Ejercicio4pag57
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            int[,] registroDeventas = new int[6, 5];
+            int menu = 0;
+            int sucursal = 0;
+            int bimestre = 0;
+            int totalSucursal = 0;
+       
+            do
+            {
+                Console.WriteLine("ingrese 1 para cargar las ventas\n2Informar la venta de una sucursal en un determinado bimestre\n3 informar la venta total de una sucursal\n4Informar la venta total de un bimestre\ningrese 0000 para finalizar ");
+                menu = int.Parse(Console.ReadLine());
+                switch (menu)
+                {
+                    case 1: 
+                            for(int i = 0; i < registroDeventas.GetLength(0); i++)
+                            {
+                            for(int j = 0; j < registroDeventas.GetLength(1) -1; j++)
+                             {
+                                Console.WriteLine($"ingrese la venta del bimestre {i+1} para la sucursal {j+1}");
+                                registroDeventas[i, j] = int.Parse(Console.ReadLine());
+                             
+                                registroDeventas[i, 4] += registroDeventas[i, j];
+
+                            }
+                         
+                        }
+                        
+                        break;
+
+                    case 2: Console.WriteLine("ingrese la sucursal");
+                        sucursal = int.Parse(Console.ReadLine());
+                        Console.WriteLine("ingrese el bimestre");
+                        bimestre = int.Parse(Console.ReadLine());
+                        Console.WriteLine($"la ventas del bimestre {bimestre} de la sucursal {sucursal} es {registroDeventas[bimestre -1, sucursal -1]}");
+                        break;
+
+                    case 3: Console.WriteLine("ingrese la sucursal");
+                        sucursal = int.Parse(Console.ReadLine());
+                        for(int i = 0; i < registroDeventas.GetLength(0); i++)
+                        {
+                            totalSucursal += registroDeventas[i, sucursal - 1];
+                        }
+                        Console.WriteLine($"las ventas de la sucursal {sucursal} son {totalSucursal}");
+                        totalSucursal = 0;
+                        break;
+                    case 4: Console.WriteLine("ingrese el bimestre");
+                        bimestre = int.Parse(Console.ReadLine());
+                        Console.WriteLine($"las ventas del bimeste {bimestre} es {registroDeventas[bimestre,4]} ");
+                        break;
+                }
+            } while (menu != 0000);
+        }
+    }
+}
